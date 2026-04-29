@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Biora Privacy Policy</title>
+<style>
+  :root {
+    --fg: #1c1c1e;
+    --muted: #6c6c70;
+    --accent: #ff7a3d;
+    --bg: #fffaf5;
+    --card: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fg: #f5f5f7;
+      --muted: #9b9ba0;
+      --accent: #ff8a52;
+      --bg: #0e0e10;
+      --card: #18181b;
+    }
+  }
+  html, body { background: var(--bg); color: var(--fg); }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.55;
+    margin: 0;
+    padding: 32px 20px 64px;
+    -webkit-font-smoothing: antialiased;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    background: var(--card);
+    border-radius: 18px;
+    padding: 36px 32px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.04);
+  }
+  h1 { font-size: 1.75rem; margin: 0 0 4px; letter-spacing: -0.01em; }
+  h2 { font-size: 1.15rem; margin: 28px 0 8px; letter-spacing: -0.005em; }
+  p, li { font-size: 0.98rem; color: var(--fg); }
+  p.lead { color: var(--muted); margin-top: 4px; }
+  ul { padding-left: 1.2rem; }
+  li { margin-bottom: 6px; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .updated {
+    color: var(--muted);
+    font-size: 0.85rem;
+    margin-bottom: 24px;
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Biora Privacy Policy</h1>
+  <p class="updated">Last updated: April 27, 2026</p>
+
+  <h2>What Biora collects</h2>
+  <p>Biora is a health and wellness app. To work, we collect data you provide:</p>
+  <ul>
+    <li>Profile info (name, age, gender, height, weight, goals)</li>
+    <li>Health data you log (meals, workouts, sleep, supplements, medications, mood, bloodwork, weight)</li>
+    <li>Health data from Apple Health and connected wearables (Oura, Whoop) when you authorize them</li>
+    <li>Chat conversations with Biora's AI assistant</li>
+    <li>Photos of supplements, bloodwork, and meals when you upload them</li>
+  </ul>
+
+  <h2>How we use it</h2>
+  <ul>
+    <li>To show you your data, your trends, and your insights</li>
+    <li>To power AI conversations and proactive suggestions</li>
+    <li>To sync your data across your devices via our backend</li>
+  </ul>
+
+  <h2>Where it lives</h2>
+  <ul>
+    <li>Your device (encrypted via iOS keychain and SwiftData)</li>
+    <li>Our backend (Supabase) for sync across devices</li>
+  </ul>
+
+  <h2>What we don't do</h2>
+  <ul>
+    <li>We don't sell your data. We never will.</li>
+    <li>We don't share your data with advertisers. There are no ads in Biora.</li>
+    <li>We don't use your data to train AI models — yours or anyone else's.</li>
+  </ul>
+
+  <h2>AI providers</h2>
+  <p>When you chat with Biora's AI, your messages and relevant context (your profile, recent data, etc.) are sent to whichever AI provider you've connected — Anthropic or OpenAI — to generate a response. They process the data per their own privacy policies. Biora does not store your AI conversations on our servers; they live on your device and our backend sync.</p>
+
+  <h2>Apple Health</h2>
+  <p>Health data from Apple Health stays on your device. Biora reads it for display and to give the AI context, but does not upload your raw Apple Health data to our backend.</p>
+
+  <h2>Your rights</h2>
+  <p>You can:</p>
+  <ul>
+    <li>Export all your data from Settings → Data Export (coming soon)</li>
+    <li>Delete your account and all associated data from Settings → Account</li>
+    <li>Disconnect any data source at any time</li>
+  </ul>
+
+  <h2>Contact</h2>
+  <p>Questions? <a href="mailto:TBD">TBD</a></p>
+</main>
+</body>
+</html>
